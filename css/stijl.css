@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Roboto:wght@300&display=swap');
+
+body {
+    font-family: 'Abel', sans-serif;
+}
+
+main {
+    background-image: url("/images/coco.jpg");
+    width: 1200px auto;
+    height: 900px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: 1.5FR 1FR;
+    grid-template-rows: auto 1fr;
+}
+
+main img {
+    grid-column: 2/3;
+    margin-top: 25%;
+    width: 70%;
+    float: left;
+}
+
+main article {
+    grid-column: 2/3;
+    color: white;
+    font-size: 1em;
+}
+
+main article p {
+    font-size: 0.8em;
+}
+
+.button3 {
+    background-color: #f44336;
+}
+
+.button {
+    background-color: #d66f0f;
+    /* Green */
+    border: none;
+    border-radius: 5px 5px 5px 5Px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+/* Red */
